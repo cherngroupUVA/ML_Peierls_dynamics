@@ -1,19 +1,40 @@
 # ML_Peierls_dynamics
-This repository includes codes, trained model samples and data samples to successfully run the machine learning force field model. This contains the simulation code and the training code to generate the results in the paper https://arxiv.org/abs/2510.20659. Sub-directories in this repo are:
+This repository provides the **codes**, **trained model samples**, and **data samples** required to successfully run the *machine learning force field (MLFF) model* described in  
+[**arXiv:2510.20659**](https://arxiv.org/abs/2510.20659).
 
-1. Training_data_generation:
-   Phase ordering dynamics code under thermal quench. Microscopic Hamiltonian is modified SSH model under semi-classical approximation. More details can be found in the paper.
-   
-1. Training_data_sample :
-   training data samples, from 50x50 real lattice exact-diagonalization simulations.
+It includes both the **simulation code** and the **training framework** used to generate all results presented in the paper.
 
-2. Descriptor_sample :
-   We have adopted the descriptor to preserve the lattice symmetry. Ex
+---
 
-3. Training code : 
-   This is the training code using the descriptor.
+## 📁 Repository Structure
 
-4. Data_example :
-   This folder includes the simulation result that is used to plot Fig. 3, Fig. 4, Fig. 6
+### 1. `Training_data_generation/`
+Contains the **phase-ordering dynamics code** under a **thermal quench**.  
+The microscopic Hamiltonian is a **modified SSH model** treated within the **semi-classical approximation**.  
+Further details are available in the paper.
 
-If you have more questions, please contact sgv2ew@virginia.edu for mor information.
+---
+
+### 2. `Training_data_sample/`
+Includes **training data samples** obtained from **50×50 real-lattice exact-diagonalization simulations**.
+
+---
+
+### 3. `Descriptor_sample/`
+Provides examples of the **descriptor** used to preserve **lattice symmetry**.  
+This descriptor formulation is essential for maintaining physical consistency during training and simulation.
+
+---
+
+### 4. `Training_code/`
+Contains the **training scripts** implementing the ML force-field model using the symmetry-preserving descriptor.
+
+---
+
+### 5. `Data_example/`
+Includes **simulation results** corresponding to the figures in the paper — specifically **Fig. 3, Fig. 4, and Fig. 6**.
+
+---
+
+For further questions or collaboration inquiries, please contact:  
+📧 **sgv2ew@virginia.edu**
