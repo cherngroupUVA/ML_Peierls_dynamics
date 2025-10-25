@@ -1,2 +1,4 @@
 # ML_Peierls_dynamics
-machine-learning force-field code/data for the Peierls model
+This page is dedicated for the training data/sampled data for ML peierls model. The resultant is https://arxiv.org/abs/2510.20659.
+
+Here we have training dataset, 
