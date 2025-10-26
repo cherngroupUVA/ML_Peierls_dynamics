@@ -1,5 +1,6 @@
 # ML_Peierls_dynamics
 # Machine Learning Force Field Model
+<img width="314" height="142" alt="image" src="https://github.com/user-attachments/assets/9c455ba4-c793-4481-9d64-4a3795888a00" />
 
 This repository includes codes, trained model samples, and data samples required to run the machine learning force field (MLFF) model described in  
 [arXiv:2510.20659](https://arxiv.org/abs/2510.20659).
